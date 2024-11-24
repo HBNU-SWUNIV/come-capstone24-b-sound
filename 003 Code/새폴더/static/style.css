@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00A0E9;
+}
+
+header {
+    background-color: #3B62FF;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 2.5em;
+    text-transform: lowercase;
+}
+
+main {
+    margin: 50px 0;
+}
+
+.content iframe {
+    display: block;
+    margin: 0 auto; /* iframe을 중앙에 정렬 */
+    border-radius: 10px; /* 모서리 둥글게 */
+    border: 2px solid #3B62FF;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #3B62FF;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #2B50FF;
+}
+
+.back {
+    background-color: #FF5733;
+}
+
+.back:hover {
+    background-color: #FF2E00;
+}
